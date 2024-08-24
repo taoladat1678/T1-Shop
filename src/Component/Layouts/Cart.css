@@ -1,0 +1,121 @@
+#cart-container {
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+.img-thumbnail {
+    width: 50px;
+    height: 50px;  
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+}
+
+.table tbody tr {
+    transition: background-color 0.3s;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table td {
+    padding: 15px;
+}
+
+.table td img {
+    margin: 0 auto;
+    display: block;
+}
+
+.table td button {
+    margin: 0 auto;
+    display: block;
+}
+
+.text-right h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-right button {
+    margin-top: 10px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-control .quantity {
+    margin: 0 10px;
+    min-width: 30px;
+    text-align: center;
+}
+
+.quantity-control .btn {
+    background-color: #f0f0f0; /* Màu nền sáng */
+    border-color: #ccc; /* Màu viền sáng */
+    color: #333; /* Màu chữ tối */
+    padding: 5px 10px;
+}
+
+.quantity-control .btn:hover {
+    background-color: #e0e0e0; /* Màu nền khi hover */
+    border-color: #bbb; /* Màu viền khi hover */
+    color: #111; /* Màu chữ khi hover */
+}
+.notification-section {
+    margin: 20px 0;
+}
+
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #e7f0ff;
+    color: #31708f;
+    text-align: center;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.modal-content h4 {
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+}
+
+.modal-content button {
+    margin: 5px;
+}

@@ -1,0 +1,39 @@
+.login-form .form-control {
+    width: 100%;
+    max-width: 400px; /* Chiều rộng tối đa của ô input */
+    margin-bottom: 15px; /* Khoảng cách giữa các ô input */
+    padding: 10px; /* Khoảng cách nội dung của ô input */
+    font-size: 14px; /* Kích thước chữ trong ô input */
+}
+
+/* Tùy chỉnh nút đăng nhập */
+.login-form .btn {
+    width: 100%;
+    max-width: 400px; /* Chiều rộng tối đa của nút */
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Tùy chỉnh liên kết quên mật khẩu */
+.login-form .form-group a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff; /* Màu liên kết */
+    text-decoration: none;
+}
+
+.login-form .form-group a:hover {
+    text-decoration: underline;
+}
+
+.reg-button{
+    background: #D10024;
+    padding: 8px 15px; /* Khoảng cách bên trong nút nhỏ hơn */
+    font-size: 12px; /* Kích thước chữ nhỏ hơn */
+    border-radius: 3px; /* Bo tròn các góc của nút */
+ 
+    color: #fff; /* Màu chữ của nút */
+    border: none; /* Không có đường viền */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền khi hover */
+  }
